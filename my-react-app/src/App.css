@@ -1,0 +1,22 @@
+.id1{
+  background-color: rgb(51, 51, 2);
+  width: 100%;
+  height: 80px;
+  display:flex;
+  gap: 5pxpx;
+}
+.id2{
+     
+  background-color: rgb(39, 39, 3);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
