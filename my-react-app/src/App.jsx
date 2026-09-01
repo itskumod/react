@@ -1,16 +1,30 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Body from "./Body";
 
+import {Routes,Route} from "react-router-dom"
+import Home from "./components/Home"
+import Skill from "./components/Skill"
+import Header from "./components/Header"
+import Project from "./components/Projects"
+import Contact from "./components/Contact"
+import Programming from "./components/Programing_Language"
+import Platform from "./components/Platform"
 
-function App() { 
+function App() {
+
   return (
     <>
-    
     <Header/>
-    <Body/>
-    <Footer/>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/skills" element={<Skill/>}/>
+      <Route path="/projects" element={<Project/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/programming" element={<Programming/>}/>
+      <Route path="/practice" element={<Platform/>}/>
 
+    </Routes>
+   
+      
+      
     </>
   );
 }
