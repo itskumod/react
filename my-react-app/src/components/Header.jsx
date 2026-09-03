@@ -14,6 +14,7 @@ function Header() {
         <li> <Link to="/projects">Projects</Link> </li>
         <li> <Link to="/practice">Platform Practice</Link> </li>
         <li> <Link to="/contact">Contact</Link> </li>
+        <li> <Link to="/login">login</Link> </li>
       </ul>
     </nav>
 
